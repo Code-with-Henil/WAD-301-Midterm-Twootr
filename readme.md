@@ -167,13 +167,13 @@ Twootr is a Social Media SPA built using React for _twoots_.
 
 1. Create at least 3 different users inside `users.json`.
 
-2. Add proxy to `package.json` file.
-   `"proxy":"http://localhost:8080/"` This proxy will allow you to make requests to the server without having to type the whole URL.
+2. Open a new terminal, go to the `backend` directory and run:
 
-3. Open a new terminal, go to the `backend` directory and run the server to check if no errors:
-   `npm run server`
+    - `npm i` - to install all the backend dependencies
 
-4. Create a React Project, clean the unwanted files and run with basic styling setup and push to Git as the first commit.
+    - `npm run server` - to run the backend server - `(http://localhost:8080)`
+
+3. Create a React Project, clean the unwanted files and run with basic styling setup and push to Git as the first commit.
 
 ## DOs:
 
